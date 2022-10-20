@@ -5,3 +5,41 @@ Author URI: https://www.twitter.com/aziz-codes
 Description: A samll theme for bulding your portfolio
 Version: 0.0.1
 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    width: 100%;;
+    padding: 10px;;
+}
+.header{
+    display: flex;
+    min-height: 40px;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    background-color: antiquewhite;
+    color: black;;
+    padding: 2px;;
+}
+.lists{
+    display: flex;
+    list-style-type: none;;
+    flex-direction: row;
+    gap: 10px;
+}

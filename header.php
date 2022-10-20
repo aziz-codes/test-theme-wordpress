@@ -8,8 +8,21 @@
     <title>Document</title>
 </head>
 
-<header>
-    <p>This is Header</p>
+<header class="header">
+   <ul class="lists">
+    <li>
+        <a>Home</a>
+    </li>
+    <li>
+        <a>Contact</a>
+    </li>
+    <li>
+        <a>Help</a>
+    </li>
+    <li>
+        <a>FAQs</a>
+    </li>
+   </ul>
 </header>
 
 <body>
