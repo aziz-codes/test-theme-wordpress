@@ -1,7 +1,9 @@
 module.exports = {
   content: ["./**/*.php"],
   theme: {
-    extend: {},
+    extend: {
+      "h-semi": "height: 90%",
+    },
   },
   plugins: [],
 };

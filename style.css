@@ -1,8 +1,8 @@
 /* 
-Theme Name: MyTheme
+Theme Name: Windy
 Author: Aziz
 Author URI: https://www.twitter.com/aziz-codes
-Description: A samll theme for bulding your portfolio
+Description: A simple blogs theme that uses Tailwind CSS as a css framework. For the docs and changes visit https://tailwindcss.com/
 Version: 0.0.1
 */
 @tailwind base;
@@ -20,4 +20,8 @@ Version: 0.0.1
 
 #menu-primary_menu li a:hover{
     color: white !important;;
+}
+
+.h-semi{
+    height: 84.6%;;
 }
