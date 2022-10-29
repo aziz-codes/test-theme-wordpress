@@ -8,17 +8,14 @@
 
  add_action('after_setup_theme','add_theme_features_support');
 
-// register assets css and js files
+// register assets i.e css and js files
 function register_assets(){
 
     wp_enqueue_script("script",get_template_directory_uri(). "/assets/js/app.js",[],time(),true);
 
     wp_enqueue_style('my-css',get_template_directory_uri(). "/style.css",[],time(),'all');
     wp_enqueue_style('tailwind-css',get_template_directory_uri(). "/tailwind.css",[],time(),'all');
-
 }
-
-
 
 add_action('wp_enqueue_scripts','register_assets');
   

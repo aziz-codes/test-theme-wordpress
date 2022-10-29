@@ -8,7 +8,12 @@
       <div  class='max-w-xl flex-wrap'>
       <?php the_excerpt(); ?>
       </div>
-      <a class='text-red-500 font-medium w-28' href="<?php the_permalink(); ?>">Read more &rarr;</a>
+      <?php 
+     
+      ?>
+      <a class='text-red-500 font-medium w-28' href="<?php 
+      the_permalink(); 
+      ?>">Read more &rarr;</a>
       <span class='text-slate-400 text-sm'>Published on <?php the_date(); ?></span>
     </div>
 </div>
