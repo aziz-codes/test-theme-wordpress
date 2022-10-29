@@ -17,8 +17,4 @@
       <span class='text-slate-400 text-sm'>Published on <?php the_date(); ?></span>
     </div>
 </div>
-<?php 
-        the_post_pagination();
-        
-        ?>
 
