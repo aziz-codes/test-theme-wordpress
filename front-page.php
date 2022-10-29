@@ -1,5 +1,23 @@
-<?php get_header(); ?>
+<?php get_header(); 
 
-<h2 class="text-red-500 font-bold">This is Home Page</h2>
+
+ if(have_posts()){
+    while(have_posts()){
+        the_post();
+        ?>
+      
+      <div class='ml-4 mt-4 text-green-600'>
+        <?php the_content(); ?>
+      </div>
+
+
+<?php
+    }
+ }
+
+
+
+?>
+
     
 <?php get_footer(); ?>

@@ -9,37 +9,15 @@ Version: 0.0.1
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;;
+#menu-primary-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;;
-    align-items: center;
-    background-color: black;
-    color: #fff;
-    width: 100%;;
-    padding: 10px;;
-}
-.header{
-    display: flex;
-    min-height: 40px;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: end;
-    align-items: center;
-    background-color: antiquewhite;
-    color: black;;
-    padding: 2px;;
-}
-.lists{
-    display: flex;
-    list-style-type: none;;
-    flex-direction: row;
-    gap: 10px;
+#menu-primary_menu li a:hover{
+    color: white !important;;
 }
