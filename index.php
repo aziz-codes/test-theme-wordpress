@@ -12,7 +12,7 @@
     }
     ?>
     <div class='flex flex-row justify-center items-center gap-3'>
-<a><?php  the_post_pagination();?></a>
+<a><?php  the_posts_pagination();?></a>
     </div>
     
     <?php
