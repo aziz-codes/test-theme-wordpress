@@ -1,4 +1,3 @@
-<?php wp_head(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title><?php echo the_title(); ?></title> 
+    <title><?php echo wp_title(); ?></title>
+    <?php wp_head(); ?>
 </head>
 
 <header>
@@ -19,7 +19,7 @@
                 $logo = wp_get_attachment_image_src($custom_logo_id);
             }
             ?>
-            <img src=<?php echo $logo[0]; ?> class='h-8 w-8 rounded-full animate-pulse' alt="logo"/>
+            <img src=<?php echo $logo[0]; ?> class='h-8 w-8 rounded-full animate-pulse' alt="logo" />
             <h4 class='ml-2 font-bold animate-bounce'><?php bloginfo('name'); ?></h4>
         </div>
         <div class='flex items-center'>
